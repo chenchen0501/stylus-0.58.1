@@ -16,7 +16,7 @@
 ```json
 {
   "devDependencies": {
-    "stylus": "git+https://github.com/chenchen0501/stylus-0.58.1.git"
+    "stylus": "https://github.com/chenchen0501/stylus-0.58.1.git"
   }
 }
 ```
@@ -24,7 +24,7 @@
 ## 安装
 
 ```bash
-npm install git+https://github.com/chenchen0501/stylus-0.58.1.git
+npm install https://github.com/chenchen0501/stylus-0.58.1.git
 ```
 
 ## 注意事项
@@ -32,6 +32,7 @@ npm install git+https://github.com/chenchen0501/stylus-0.58.1.git
 - 这个 fork 仅用于保持项目的正常运行
 - 建议长期迁移到 Sass/SCSS 或其他现代 CSS 预处理器
 - 本 fork 不会进行功能更新，仅保持原有功能
+- 在 CI/CD 环境（如云效）中建议使用 HTTPS URL 而非 SSH URL
 
 ## 迁移建议
 
@@ -40,4 +41,3 @@ npm install git+https://github.com/chenchen0501/stylus-0.58.1.git
 - **Sass/SCSS**: 功能完整，社区活跃
 - **Less**: 语法简洁，易于迁移
 - **现代 CSS**: 支持嵌套、变量等现代特性
-# stylus-0.58.1
